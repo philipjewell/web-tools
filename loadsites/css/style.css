@@ -1,0 +1,62 @@
+body {
+  background-color: #eee !important;
+  text-transform: lowercase;
+}
+iframe {
+  background: #fff;
+  width: 500px;
+  height: 300px
+}
+input[type=text] {
+  width: 50%;
+  float: left;
+}
+textarea {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgb(205, 205, 205);
+}
+.btn-frame {
+  margin: 0px 5px;
+}
+.btn-primary {
+  background-color: blue !important;
+  border: 3px solid transparent !important;
+  padding: 0px 20px;
+  float: right;
+}
+.content {
+  padding-top: 95px;
+}
+.dashboard {
+  background: #333;
+  color: #f0f0f0;
+  width: 100%;
+  padding: 10px 12px;
+  border-bottom: 2px solid white;
+}
+.dashboard a {
+  color: #40bac8;
+}
+.header {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  background: linear-gradient(to bottom, rgba(238,238,238,0.95), #eee);
+  padding: 10px 10px;
+  margin: 0px;
+  box-shadow: 10px 0px 10px;
+}
+.site {
+  padding: 15px 10px;
+  float: left;
+}
+.status {
+  width: 100%;
+  padding: 5px;
+  text-indent: 10px;
+}
+.status.empty {
+  background-color: yellow;
+}
