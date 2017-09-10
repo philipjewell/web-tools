@@ -1,6 +1,18 @@
 # web-tools
 Description: Series of web tools used for efficiency
 
+## contenteditable_code_block
+A Google Chrome extension that turns `<pre>` tags that are often used as code blocks into editable blocks.
+The extension is written for the following sites:
+
+* github.com
+* app.getguru.com 
+* trello.com
+* stackoverflow.com
+* unix.stackexchange.com
+* *.atlassian.net (both confluence and JIRA)
+* zendesk.com
+
 ## loadsites
 PHP based tool that iframes any number of domains you populate into the form.
 Allows you to quickly view several sites for monitoring or audit like purposes.
