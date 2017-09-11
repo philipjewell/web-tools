@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^ssl/(.*)/(valid_(from|to)|sans)$ ssl.php?name=$1&$2=1 [L]
+RewriteRule ^ssl/(.*)$ ssl.php?name=$1 [L]
