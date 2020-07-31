@@ -13,19 +13,6 @@ The extension is written for the following sites:
 * *.atlassian.net (both confluence and JIRA)
 * zendesk.com
 
-To install:
-
-1. `cd` into the directory you want to put the extension
-2. Run the following command to pull down the files:
-```
-git clone git@github.com:philipjewell/contenteditable_code_block.git
-```
-3. Navigate to: `chrome://extensions/`
-4. Check the box that say **Developer mode**
-5. Select the **Load unpacked extension...** button
-6. Select the **contenteditable_code_block** folder that should be located in your desired directory from step #1
-7. Check the **Enable** box to the extension
-
 ## [loadsites](https://github.com/philipjewell/web-tools/tree/master/loadsites)
 PHP based tool that iframes any number of domains you populate into the form.
 Allows you to quickly view several sites for monitoring or audit like purposes.
